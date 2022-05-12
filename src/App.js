@@ -17,8 +17,10 @@ function App() {
       <HomePageMain/>
       <TextOnlyCard/>
       <HorizontalCard title="AALAYA" loc="Warangal-Hyderabad Highway." img={projectImg}/>
+      <div className="vertical-cards-container">
       <VerticalCard title="AASHAYA" description=" Commercial Development on Hyderabad-Warangal Highway" img={aashayaImg} />
       <VerticalCard title="JP MALL" description=" Commercial Development on Chaitanyapuri Metro,Kothapet" img={jpMallImg}/>
+      </div>
       <HorizontalCard title="AJANTA" loc="Nagole- 7 min from Nagole Metro" img={ajantaImg}/>
       <Footer/>
     </div>

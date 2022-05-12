@@ -4,8 +4,14 @@
     background-color: var(--primary-01);
     color:white;
     overflow: hidden;
+    display:flex;
+    flex-direction: column;
   
   
+}
+.horizontal-card-content-and-img{
+  display:flex;
+  flex-direction: column;
 }
 .horizontal-card-content{
   padding:1.2rem;
@@ -42,4 +48,15 @@
 .Horizontal-card-white-space{
   height:4rem;
   background-color: white;
+}
+
+@media only screen and (min-width: 800px) {
+  .horizontal-card-content-and-img{
+    display:flex;
+    flex-direction: row-reverse;
+    justify-content:left;
+    align-items: center;
+    padding:2rem 1rem 0 0;
+
+  }
 }
